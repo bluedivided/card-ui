@@ -1,0 +1,48 @@
+.card {
+  border: none;
+  overflow: auto;
+  /* max-height: 420px; /*fix for text overflow, needs fixing for flex flip card */
+}
+
+cite {
+  font-size: 0.6rem;
+}
+
+.embed-responsive-item {
+  border: none;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.bl-card-space.hover.bl-flip-card .bl-card-panel-back {
+  transform: rotateY(0deg);
+}
+
+.bl-card-space.hover.bl-flip-card .bl-card-panel-front {
+  transform: rotateY(180deg);
+}
+
+.bl-card-template {
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.bl-card-panel-front {
+  position: relative;
+  z-index: 2;
+}
+
+.bl-card-panel-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(-180deg);
+}
+
+.bl-card-panel-front,
+.bl-card-panel-back {
+  backface-visibility: hidden;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
