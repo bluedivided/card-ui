@@ -1,7 +1,7 @@
 .card {
   border: none;
   overflow: auto;
-  /* max-height: 420px; /*fix for text overflow, needs fixing for flex flip card */
+  /* max-height: 500px; /*fix for text overflow, needs fixing for flex flip card */
 }
 
 cite {
