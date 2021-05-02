@@ -1,11 +1,20 @@
 .card {
   border: none;
+  background-color: #ffffff;
   overflow: auto;
   /* max-height: 500px; /*fix for text overflow, needs fixing for flex flip card */
 }
 
+.card-header{
+  background-color:#ffffff;
+}
+
+.card-footer{
+  background-color:#ffffff;
+}
+
 cite {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
 }
 
 .embed-responsive-item {

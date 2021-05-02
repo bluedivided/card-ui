@@ -2,7 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>Home Page</title>
+    <title>Card UI Demo</title>
+    <meta name="author" content="Blue Divided">
+    <meta name="description" content="The card-ui built on open source framework including HTML, CSS, and APIs.">
+    
+    <meta property="og:title" content="Card UI Demo">
+    <meta property="og:description" content="The card-ui built on open source framework including HTML, CSS, and APIs.">
+    <meta property="og:image" content="img/favicon.png">
+
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,6 +26,8 @@
     <!-- OGP embedding from Embedly -->
     <script async src="http://cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
+    <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -28,16 +38,12 @@
     <!-- <div id="bl-header"></div> -->
 
     <!-- Nav Bar -->
-    <div id="bl-nav-bar">
-
-    </div>
+    <div id="bl-nav-bar"></div>
 
     <!-- Main -->
     <div id="bl-main">
 
-        <div id="bl-topic-list">
-        </div>
-
+        <div id="bl-topic-list"> </div>
         <!-- <div id="bl-card-list"></div> -->
 
     </div>
@@ -47,20 +53,13 @@
 
     <script>
         $(document).ready(function () {
-
             /* $("#bl-header").load("template/header.html"); */
-
             $("#bl-nav-bar").load("template/nav-bar.html");
-
             $("#bl-topic-list").load("template/topic-list.html");
-
             /*$("#bl-card-list").load("template/card-list.html");*/
-
             $("#bl-footer").load("template/footer.html");
         });
     </script>
-
-
 
 </body>
 
